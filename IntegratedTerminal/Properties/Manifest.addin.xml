@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ExtensionModel>
 	<Extension path="/MonoDevelop/Ide/Commands/View">
-		<Command id="IntegratedTerminal.IntegratedTerminalCommands.Show" _label="Integrated Terminal" defaultHandler="IntegratedTerminal.IntegratedTerminalHandler" />
+		<Command id="IntegratedTerminal.IntegratedTerminalCommands.Show" _label="Integrated Terminal" _description="Starts and displays and intergrated terminal" defaultHandler="IntegratedTerminal.IntegratedTerminalHandler" />
 	</Extension>
 	<Extension path="/MonoDevelop/Ide/MainMenu/View">
 		<CommandItem id="IntegratedTerminal.IntegratedTerminalCommands.Show" />
