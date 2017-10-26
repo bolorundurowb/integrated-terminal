@@ -1,5 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ExtensionModel>
-	<Runtime>
-	</Runtime>
+	<Extension path="/MonoDevelop/Ide/Commands/View">
+		<Command id="IntegratedTerminal.IntegratedTerminalCommands.Show" _label="Integrated Terminal" defaultHandler="IntegratedTerminal.IntegratedTerminalHandler" />
+	</Extension>
+	<Extension path="/MonoDevelop/Ide/MainMenu/View">
+		<CommandItem id="IntegratedTerminal.IntegratedTerminalCommands.Show" />
+	</Extension>
 </ExtensionModel>
